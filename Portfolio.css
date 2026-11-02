@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(135, 255, 185);
+    height: 80px;
+
+}
+
+.logo{
+padding-left: 80px;
+padding-top: 20px;
+font-weight: bolder;
+font-size: xx-large;
+
+
+}
+
+.nav-links{
+    display: flex;
+    padding-left: 600px;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: x-large;
+    padding-top: 20px;
+}
+.nav-links li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: x-large;
+}
+ .nav-links li :hover{
+    color: red;
+    font-size: xx-large;
+}
+
+.container{
+    /* margin: 20px; */
+    background-color: bisque;
+}
+
+
+.text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 100px;
+    gap: 150px;
+    text-align: center;
+}
+
+.text img{
+    height: 500px;
+    border-radius: 5px;
+
+}
+
+ .photo :hover{
+    height: 600px;
+    
+
+}
+   .text-2{
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+    
+.text-2 p{
+text-align: justify;
+}
+.text-2 ul {
+    padding-left: 20px;
+}
+.contact-cart{
+    background-color: rgb(255, 183, 249);
+    width: 400px;
+    text-align: center;
+    border: solid rgb(255, 167, 182) 5px;
+    border-radius: 5px;
+}
+.contact-cart section :hover{
+    background-color: rgb(244, 130, 248);
+    width: 500px;
+    border-radius: 5px;
+    
+}
+.skill-cart{
+     background-color: rgb(255, 183, 249);
+    width: 400px;
+    text-align: center;
+    border: solid rgb(252, 133, 153) 5px;
+    border-radius: 5px;
+
+}
+.skill-cart p{
+    text-align: center;
+}
+.skill-cart section :hover{
+     background-color: rgb(244, 130, 248);
+    width: 500px;
+    border-radius: 5px;
+
+}
+.Add-cart{
+    background-color: rgb(255, 183, 249);
+    width: 400px;
+    text-align: center;
+    border: solid rgb(255, 167, 182) 5px;
+    border-radius: 5px;
+   
+}
+.Add-cart section :hover{
+     background-color: rgb(244, 130, 248);
+    width: 500px;
+    border-radius: 5px;
+
+
+}
